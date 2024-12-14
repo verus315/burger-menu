@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .header .title {
+      font-size: 1.5em;
+    }
+
+    .header .cart-btn {
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    .menu-item {
+      width: 90%;
+      max-width: 400px;
+      background: #fff;
+      margin: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    .menu-item .content {
+      padding: 15px;
+    }
+
+    .menu-item h3 {
+      margin: 0 0 10px;
+    }
+
+    .menu-item p {
+      margin: 0 0 15px;
+      color: #666;
+    }
+
+    .menu-item .price {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .menu-item .add-to-cart {
+      display: block;
+      text-align: center;
+      margin: 10px 0 0;
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .menu-item .add-to-cart:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="title">Restaurant Menu</div>
+  <button class="cart-btn">Cart</button>
+</div>
+
+<div class="menu">
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Triple Chili cheese">
+    <div class="content">
+      <h3>Triple Chili cheese</h3>
+      <p>A Hand rolled, double coated and fried ball(s) of our triple chili and cheese blend</p>
+      <div class="price">$12.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Hot & spicy chicken wings</h3>
+      <p>6 Chili-glazed chicken wings served with celery and blue cheese dip.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Caesar Salad</h3>
+      <p>A classic Caesar salad with bacon, semi dried tomatoes, red onion and crutons, served with sous-vide strips of marinated chicken.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Thai Cripsy Chicken burger</h3>
+      <p>FA cornflake-encrusted chicken patty, cheddar, Tom Yum mayo, mushrooms, coriander, and spring onion.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Umami Burger</h3>
+      <p>A burger with Parmesan crisp, onion chutney, soya infused shiitake mushrooms, slow baked tomatoes, ketchup and chili mayo.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>True Blue Burger</h3>
+      <p>A flavour-packed burger that begins and ends with creamy and salty blue cheese. Paired with yuzu infused tomato chutney, toasted pistachios, crispy fried kale and rounded with creamy truffle mayo.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Soft Serve Deluxe</h3>
+      <p>A truly unique soft serve ice cream experience made with 100% Jersey cattle dairy from Jerseymeieriet. Only milk, cream, sugar and natural stabilizers.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Milkshakes</h3>
+      <p>Oreo, Chocolate and Strawberry milkshakes.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://via.placeholder.com/351x351" alt="Dish 2">
+    <div class="content">
+      <h3>Chocolate Fondant</h3>
+      <p>Chocolate cake with liquid chocolate center served with salty caramel sauce, white chocolate crumble, forest berry compote and ice cream.</p>
+      <div class="price">$8.99</div>
+      <a href="#" class="add-to-cart">Add to Cart</a>
+    </div>
+  </div>
+
+
+
+</body>
+</html>
